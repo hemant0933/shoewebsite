@@ -1,0 +1,91 @@
+@import url('./assets/gambarino.css');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Italiana&family=Marcellus&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+#root{
+  --Anne:'Annie Use Your Telescope', cursive;
+  --Inter: 'Inter',sans-serif;
+  --Italiana: 'Italiana', sans-serif;
+  --Marcellus:'Marcellus', serif;
+  --Muslish:'Mulish', sans-serif;
+  --WorkSans:'Work Sans', sans-serif;
+
+  --second:#c2d0d8;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background: rgb(57,57,57);
+  background: linear-gradient(94deg, rgba(57,57,57,1) 0%, rgba(10,10,11,1) 43%, rgba(87,87,87,1) 100%);
+  font-family: var(--WorkSans);
+}
+
+.gambarino{
+   font-family: 'Gambarino-Regular';
+}
+.inter{
+  font-family: var(--Inter);
+}
+
+.itiana{
+  font-family: var(--Italiana);
+}
+
+.mulish{
+  font-family: var(--Muslish);
+}
+.marcellus{
+  font-family: var(--Marcellus);
+}
+.height{
+  line-height: 10rem;
+}
+
+.bg1{
+  background: var(--second);
+}
+
+
+
+.vertical{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+/**
+ * @license
+ *
+ * Font Family: Gambarino
+ * Designed by: Théo Guillard
+ * URL: https://www.fontshare.com/fonts/gambarino
+ * © 2023 Indian Type Foundry
+ *
+ * Font Style:
+ * Gambarino Regular
+ *
+*/
+
+
+@font-face {
+  font-family: 'Gambarino-Regular';
+  src: url('./assets/fonts/Gambarino-Regular.woff2') format('woff2'),
+       url('..assets/fonts/Gambarino-Regular.woff') format('woff'),
+       url('..assets/fonts/Gambarino-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+ul,li{
+  list-style: none;
+}
